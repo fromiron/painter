@@ -9,12 +9,56 @@ body {
 }
 
 .canvas {
-    height: 300px;
-    width: 300px;
-
+    height: 500px;
+    width: 500px;
     border-radius: 10px;
     box-shadow: 0 8px 10px -6px grey;
-    stroke: wheat;
     border: solid 1px rgba(219, 219, 219, 0.431);
     background-color: white;
+
+}
+
+.controls {
+    margin-top: 20px;
+
+}
+
+.controls .controls__range{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.controls__colors {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.controls__colors .controls__color {
+    box-shadow: 0 5px 10px -5px grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+.btnContainer .btnContainer{
+    box-shadow: 0 5px 10px -5px grey;
+}
+.btnContainer button{
+    all:unset;
+    cursor: pointer;
+    background-color: white;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 10px 0 10px;
+    box-shadow: 0 5px 5px -5px grey;
+
 }
