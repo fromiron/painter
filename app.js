@@ -10,7 +10,7 @@ canvas.width = canvas.offsetWidth;
 canvas.height = canvas.offsetHeight;
 
 ctx.fillStyle = "white";
-ctx.fillRect(0, 0, 500, 500)
+ctx.fillRect(0, 0, 500, 500);
 ctx.strokeStyle = "black";
 ctx.fillStyle = "black";
 ctx.lineWidth = 2.0;
@@ -53,7 +53,7 @@ const handleRangeChange = range => {
 
 const handleCanvasClick = () => {
     if (filling) {
-        ctx.fillRect(0, 0, 500, 500)
+        ctx.fillRect(0, 0, 500, 500);
     }
 };
 
